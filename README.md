@@ -14,3 +14,25 @@ These are the things we should consider:
     - code/data as supplementary material (still behind possible paywall)
     - code/data contained in publicly available repository (e.g. github)
     - code/data contained in publicly available repository AND with a docker image for versioning
+	
+## Steps
+
+Possible steps for project:
+
+- identify previous research (ongoing)
+- design literature search
+    - identify say, top 10 statistics journals?
+    - timeline (2015--2016?)
+    - keywords (simulation, code, ?)
+- brief read-through of articles to identify suitability
+    - done by all
+    - e.g. check that the article actually contains data/analysis/simulations
+- longer read-through of articles kept from last phase
+    - ranked against criteria above
+- produce summary statistics
+
+### Our own reproducibility
+
+We should aim to make our own literature search reproducible! (I have no idea how to do this at the moment though). Possibly done simply by recording the keywords etc. used and which database searched. Record criteria for culling this initial literature search, then record the decisions made on each article.
+
+If possible, we should try and contain all within a docker image that generates the final pdf.
